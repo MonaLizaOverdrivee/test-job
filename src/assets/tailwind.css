@@ -1,0 +1,19 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.tag {
+  @apply bg-gray-200;
+  @apply p-2;
+  @apply rounded-full;
+  @apply cursor-pointer;
+  @apply hover:bg-gray-300;
+}
+.tag.active {
+  @apply bg-gradient-to-r;
+  @apply from-primary-0;
+  @apply to-primary-100;
+  @apply text-white;
+}
